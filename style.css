@@ -1,0 +1,52 @@
+
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+.image {
+    /* display: flex; */
+    justify-content: center;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.hl {
+    color: var(--base);
+}
+
+/**/
+ 
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  h2 {
+      font-size: 4em;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+    font-size: 2em;
+  }
+
+  input {
+    width: 100px;
+  }
+
+
+
